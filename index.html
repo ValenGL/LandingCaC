@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
   </head>
+  
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-dark p-3" style="background-color: #444">
     <div class="container-fluid">
@@ -43,6 +44,7 @@
     </div>
   </nav>
 
+  <section id="seccion">
 <!-- HERO -->
   <div class="jumbotron backgroundjt ">
     <div class="container m-5 p-5">
@@ -50,7 +52,7 @@
       <p class="fs-5 text-white text-end fw-bold ">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-        <button type="button" class="btn btn-success">Comprar tickets</button>
+        <button type="button" class="btn btn-success" onclick="comprarTicket()" >Comprar tickets</button>
       </div>
     </div>
   </div>
@@ -136,7 +138,7 @@
       </div>
     </form>
   </div>
-
+</section>
   <!-- FOOTER -->
   <div class="d-flex container-fluid mt-3 justify-content-evenly " style="background: linear-gradient(90deg, rgba(36,34,68,1) 0%, rgb(30, 94, 109) 100%);">
     <ul class="nav m-3 gap-5 p-3">
@@ -163,6 +165,6 @@
       </li>
     </ul>
   </div>
-
+  <script src="./app.js"></script
   </body>
 </html>
